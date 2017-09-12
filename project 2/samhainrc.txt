@@ -1,0 +1,27 @@
+[IgnoreNone]
+dir = 0/var/www/
+
+#
+# Miscellaneous configuration options
+#
+[Misc]
+## whether to become a daemon process
+#
+Daemon = yes
+
+## whether to test signature of files
+#
+ChecksumTest=check
+
+## Interval between time stamp messages
+#
+SetLoopTime = 600
+
+## Interval between file checks
+#
+SetFileCheckTime = 60
+
+## disable logging to console
+#
+[Log]
+PrintSeverity=none

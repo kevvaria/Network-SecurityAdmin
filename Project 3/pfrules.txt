@@ -1,0 +1,17 @@
+ext_if = "em0"
+
+#pf logging
+pass in log all
+pass out log all
+
+#originals
+pass in quick on $ext_if proto tcp from any to port 22 keep state
+pass in quick on $ext_if proto tcp from any to port 80 keep state
+pass in quick on $ext_if proto udp from any to port 53 keep state
+pass out quick on $ext_if inet keep state
+
+#localhost
+pass in quick on $ext_if from any to 127.0.0.1
+pass in quick on $ext_if from any to 10.0.2.15
+pass out quick on $ext_if from any to any
+block in quick all

@@ -1,0 +1,4 @@
+.kvaria.local:10.0.2.15:a:259200
+@kvaria.local:10.0.2.15:a::86400
+=server.kvaria.local:10.0.2.15:86400
+Cwww.kvaria.local:server.kvaria.local:86400
