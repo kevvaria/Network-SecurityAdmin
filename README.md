@@ -1,6 +1,6 @@
 # Network-SecurityAdmin
 
-Create and Maintain various servers on a Linux/UNIX environment.
+CIMN 250 - Network and Security Administration: Create and maintain security on various servers hosted on a Linux/UNIX environment.
 
 Access to the servers must take place using remote SSH application (PuTTY)
 
